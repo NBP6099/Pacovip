@@ -7,8 +7,8 @@
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <stringProperty name="address" category="detail"><![CDATA[Calle Encuadernación, 54, Sevilla, España]]></stringProperty>
-    <markdownProperty name="description" category="detail"><![CDATA[Descripcion Pacovip
-]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Pacovip es una empresa con más de veinte años de experiencia en el sector del vending, con presencia en Sevilla, Huelva y parte de Extremadura. 
+Se dedica a instalar y atender máquinas expendedoras de café, snacks y bebidas. Entre sus clientes se encuentran empresas, centros educativos y distintas organizaciones que buscan ofrecer un servicio de vending de calidad.  ]]></markdownProperty>
     <stringProperty name="phone-number" category="detail"><![CDATA[]]></stringProperty>
     <stringProperty name="email" category="detail"><![CDATA[administracion@pacovip.es]]></stringProperty>
     <urlProperty name="web" category="detail"><![CDATA[https://www.pacovip.es]]></urlProperty>
