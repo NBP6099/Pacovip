@@ -9,8 +9,10 @@
     <stringProperty name="role" category="detail"><![CDATA[Ingeniero de Requisitos]]></stringProperty>
     <enumProperty name="category" category="detail" choices="tbd customer developer user">developer</enumProperty>
     <stringProperty name="phone-number" category="detail"><![CDATA[]]></stringProperty>
-    <stringProperty name="email" category="detail"><![CDATA[aleypablosierra@gmail.com]]></stringProperty>
-    <traceProperty name="works-for" category="detail" acceptedTargets="organization" traceType=":Proteus-works-for"/>
+    <stringProperty name="email" category="detail"><![CDATA[alesiemar@alum.us.es]]></stringProperty>
+    <traceProperty name="works-for" category="detail" acceptedTargets="organization" traceType=":Proteus-works-for">
+      <trace target="6wP794HRE7KH" traceType=":Proteus-works-for"/>
+    </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
