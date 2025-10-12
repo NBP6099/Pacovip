@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[PRON-]]></prefix>
-      <number>003</number>
+      <number>005</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Registro de incidencias]]></stringProperty>
