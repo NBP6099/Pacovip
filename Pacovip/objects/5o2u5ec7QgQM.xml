@@ -9,23 +9,23 @@
     <markdownProperty name="text" category="detail"><![CDATA[
 Máquina expendedora: Dispositivo automatizado que dispensa productos como café, snacks y bebidas, sin necesidad de la presencia de un vendedor.
 
-Producto: Artículo que se ofrece en las máquinas expendedoras para su venta y consumo.
-
-Repostaje: Acción de rellenar las máquinas expendedoras con productos para garantizar su disponibilidad.
+Módulo de pago: Componente que acepta billetes, monedas o tarjetas en la máquina.
 
 Ruta de reposición: Itinerario planificado que siguen los trabajadores para abastecer las máquinas instaladas en diferentes ubicaciones.
 
+Control de caducidad: Funcionalidad para registrar y alertar sobre la fecha máxima de consumo de productos almacenados en la máquina.
+
 Incidencia: Cualquier fallo o problema técnico que impida el correcto funcionamiento de una máquina expendedora.
+
+Lectura de ventas: Registro digital que muestra cuántos productos se han vendido por máquina.
 
 Mantenimiento: Conjunto de actividades preventivas y correctivas para asegurar la operatividad de las máquinas.
 
 Cliente: Empresa, centro educativo u organización que contrata el servicio de Pacovip para disponer de máquinas expendedoras.
 
-Usuario final: Persona que utiliza la máquina expendedora para adquirir productos.
-
 Stock: Cantidad de productos disponibles en una máquina expendedora en un momento dado.
 
-Telemetría: Tecnología que permite la supervisión remota del estado y el inventario de las máquinas expendedoras.
+Comunicador de máquina: Dispositivo que envía datos sobre ventas, stock y alertas de la máquina a la central.
 
 Pago sin contacto: Método de pago en las máquinas que no requiere contacto físico, como tarjetas contactless o dispositivos móviles.
 
