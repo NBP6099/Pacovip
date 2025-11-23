@@ -6,23 +6,28 @@
       <number>002</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Ubicación geográfica de la máquina]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Información de Establecimientos]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2025-11-02</dateProperty>
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="description" category="detail"><![CDATA[
-Coordenadas GPS, dirección postal completa y descripción específica del lugar de instalación de cada máquina expendedora.
-
+    <markdownProperty name="description" category="detail"><![CDATA[El sistema guardará los datos de los lugares físicos donde se instalan las máquinas para gestionar el acceso y la logística.
 ]]></markdownProperty>
-    <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">high</enumProperty>
-    <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">tbd</enumProperty>
-    <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">awaiting-validation</enumProperty>
+    <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">critical</enumProperty>
+    <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">high</enumProperty>
+    <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">validated</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">high</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="ZKQ7jqxebkbu" traceType=":Proteus-dependency"/>
+      <trace target="7Uc5YyTpo8Qq" traceType=":Proteus-dependency"/>
+    </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="wNGTQ7dV56dQ"/>
+    <child id="76diHSbk2bpx"/>
+    <child id="7G2kB2oGtwVr"/>
+    <child id="4QsNeBZi6Hf3"/>
+    <child id="6SxtAPhsbkEe"/>
   </children>
 </object>

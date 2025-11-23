@@ -4,5 +4,27 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Requisitos de conducta del sistema]]></stringProperty>
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="6bhcFncXX5Uo"/>
+    <child id="3TfoEXZJZa6V"/>
+    <child id="4AcKdKTjDoLF"/>
+    <child id="hzgpGmKMDHrz"/>
+    <child id="4YjLaKr7DPTr"/>
+    <child id="6SP6fWs82DJn"/>
+    <child id="6i2WY4NLojSQ"/>
+    <child id="6Rqmxz69JV2p"/>
+    <child id="fMLQjrqk8iKV"/>
+    <child id="5tWTJUjkcwES"/>
+    <child id="7bwginnEBLUb"/>
+    <child id="83TpYKMrM5gR"/>
+    <child id="5x7tb3pZLUeH"/>
+    <child id="789QhuvDF6ZX"/>
+    <child id="4TVrNkdKeX25"/>
+    <child id="3QYMb6P6x3cr"/>
+    <child id="3unZic8zX8wY"/>
+    <child id="7BMvMBVgtGJp"/>
+    <child id="5ZmhSHyTEUUb"/>
+    <child id="6PpgdTcRBzbT"/>
+    <child id="4G7wTRvofvCU"/>
+  </children>
 </object>
