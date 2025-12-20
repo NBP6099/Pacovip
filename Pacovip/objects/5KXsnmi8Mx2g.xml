@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<object id="5KXsnmi8Mx2g" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
-  <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Estado]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Situación de la resolución (Nueva, Asignada, Resuelta).]]></markdownProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Podría quitarla...]]></markdownProperty>
-  </properties>
-  <children/>
-</object>
