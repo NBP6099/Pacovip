@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<object id="Njm9CqJyiu5o" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
-  <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Email]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Correo electrónico (usado como login)]]></markdownProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-</object>
