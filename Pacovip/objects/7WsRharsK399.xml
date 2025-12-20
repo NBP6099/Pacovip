@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <object id="7WsRharsK399" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Identificador]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[UUID de la evidencia.]]></markdownProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Archivo]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[URL al fichero de imagen.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
