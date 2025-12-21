@@ -12,12 +12,10 @@
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <traceProperty name="participates-in" category="detail" acceptedTargets="business-process" traceType=":Proteus-dependency">
-      <trace target="5wzhRhQWMStf" traceType=":Proteus-dependency"/>
       <trace target="3hSZiAfqdSL8" traceType=":Proteus-dependency"/>
       <trace target="GPvDm4iTFPjw" traceType=":Proteus-dependency"/>
       <trace target="6QoSDoQBu9Cn" traceType=":Proteus-dependency"/>
       <trace target="7df5zG3y2MJi" traceType=":Proteus-dependency"/>
-      <trace target="7emiw6RouEEe" traceType=":Proteus-dependency"/>
       <trace target="7j7x8ngKYfbs" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="description" category="detail"><![CDATA[El administrador del sistema es el actor humano responsable de gestionar, configurar y supervisar el sistema.
