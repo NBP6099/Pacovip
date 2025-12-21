@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<object id="48XMXxPumej9" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
-  <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Ubicación]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Referencia al establecimiento donde se encuentra alojada.]]></markdownProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-</object>
