@@ -13,10 +13,10 @@
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <markdownProperty name="description" category="detail"><![CDATA[Requisitos Generales (RQG) vs. Casos de Uso (CU)]]></markdownProperty>
     <classListProperty name="row-classes" category="detail">
-      <class>general-requirement</class>
+      <class>use-case</class>
     </classListProperty>
     <classListProperty name="col-classes" category="detail">
-      <class>use-case</class>
+      <class>general-requirement</class>
     </classListProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
