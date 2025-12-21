@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5nhF4HRKxjHk" classes="model-element system-operation" acceptedChildren="parameter" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true">
+      <prefix><![CDATA[SYSOP-]]></prefix>
+      <number>007</number>
+      <suffix><![CDATA[]]></suffix>
+    </codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[generarRutasDiarias]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2025-12-21</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="result-type" category="detail" tooltip="result-type"><![CDATA[List<Ruta>]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Algoritmo que crea las rutas óptimas y las asigna a los operarios basándose en necesidades de stock y averías.]]></markdownProperty>
+    <markdownProperty name="precondition" category="pre-post"><![CDATA[Deben existir tareas pendientes (reposición o reparación). Existen operarios disponibles para la fecha.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="pre-post"><![CDATA[Se crean instancias de Ruta para el día actual. Las instancias de Tarea pendientes se asocian a una Ruta. El estado de las tareas pasa a 'Asignada']]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement software-requirement model-element" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

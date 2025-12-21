@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="48j6byQwucng" classes="parameter" acceptedChildren=":Proteus-none" acceptedParents="system-operation">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[idEstablecimiento]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[Integer]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Establecimiento en el que se realizará la tarea]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
