@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6RsdfCSDWw2k" classes="parameter" acceptedChildren=":Proteus-none" acceptedParents="system-operation">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[prioridad]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[string]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA["BAJA", "MEDIA", "ALTA"]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

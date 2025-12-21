@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3rUgFJ9j7kyg" classes="parameter" acceptedChildren=":Proteus-none" acceptedParents="system-operation">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[idMaquina]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[Ineteger]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[En caso de que el establecimiento tenga varias máquinas o se trate de una tarea de instalación deberá indicarse]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

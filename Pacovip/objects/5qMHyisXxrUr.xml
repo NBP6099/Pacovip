@@ -15,7 +15,9 @@
     <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[PRON-010.svg]]></fileProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">critical</enumProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">98</integerProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency">
+      <trace target="ifUcNec9yN2y" traceType=":Proteus-dependency"/>
+    </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
