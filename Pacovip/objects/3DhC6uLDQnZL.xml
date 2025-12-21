@@ -13,7 +13,8 @@
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <booleanProperty name="is-abstract" category="detail" tooltip="is-abstract">false</booleanProperty>
     <traceProperty name="superclass" category="detail" acceptedTargets="entity-class" traceType=":Proteus-dependency" maxTargetsNumber="1"/>
-    <markdownProperty name="description" category="detail"><![CDATA[Esta clase entidad representa _[concepto del dominio del problema representado por la clase entidad]_]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Esta clase entidad representa la incidencia que reportan a una maquina
+]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement software-requirement model-element" traceType=":Proteus-dependency">
       <trace target="ZKQ7jqxebkbu" traceType=":Proteus-dependency"/>
       <trace target="4uqH6YgKejxV" traceType=":Proteus-dependency"/>
@@ -24,5 +25,6 @@
   </properties>
   <children>
     <child id="5RCDc8CYBtmZ"/>
+    <child id="Qo5tvLwM8JHD"/>
   </children>
 </object>

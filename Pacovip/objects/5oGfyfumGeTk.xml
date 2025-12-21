@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5oGfyfumGeTk" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2025-12-21</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[-Inicio de sesión: El administrador u operario introduce sus credenciales para que el sistema valide su identidad y permita el acceso a la aplicación.
+
+-Creación de usuario: El administrador registra a un nuevo integrante rellenando un formulario cuyos datos son validados por el sistema antes de guardarse.
+
+-Creación de vehículo: El administrador solicita el alta de un nuevo vehículo en el sistema, el cual valida la información antes de confirmar la creación.
+
+-Asignación de vehículo: El administrador selecciona una ruta y un operario para asignarle un vehículo, permitiendo elegir entre los disponibles o reasignar uno.
+
+-Creación de máquina: El administrador introduce los datos técnicos de una nueva maquinaria, pasando por un proceso de validación antes de su registro definitivo.
+
+-Creación de establecimiento: Se registran los datos de una nueva sede o local, asegurando mediante validación que toda la información obligatoria sea correcta.
+
+-Consulta de establecimiento: El operario selecciona un establecimiento específico del sistema para visualizar sus datos detallados de forma rápida.
+
+-Consulta de máquina: El operario busca y visualiza la ficha técnica y los detalles de una máquina concreta asociada a un establecimiento.
+
+-Consulta de usuario: El administrador solicita al sistema el listado completo de los usuarios registrados para revisar su información general.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
