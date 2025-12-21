@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6X2hEPQxT6ZU" classes="meeting" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Validación ERS v1.0 y Definición del Análisis]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="detail">2025-11-18</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <timeProperty name="time" category="detail">19:00:00</timeProperty>
+    <stringProperty name="place" category="detail"><![CDATA[Online (Zoom)]]></stringProperty>
+    <traceProperty name="attenders" category="detail" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="4iz7kjcposzm" traceType=":Proteus-information-source"/>
+      <trace target="5BTyer8QoB2T" traceType=":Proteus-information-source"/>
+      <trace target="7JrNR6VuY48T" traceType=":Proteus-information-source"/>
+      <trace target="kzQ3jS3KujKs" traceType=":Proteus-information-source"/>
+    </traceProperty>
+    <markdownProperty name="results" category="results"><![CDATA[Se validó ERS v1.0 completo: 5 RQG, 13 RQI, 14 REGN, 23 RQF, 21 RQNF. Se confirmó modelo de clases con 15 clases principales. Se especificaron 7 casos de uso (CU-001 a CU-007). Se definieron restricciones técnicas: disponibilidad 99.5%, tiempo respuesta <3s, sincronización offline <5min, cálculo rutas <30s. Se acordó completar DAS v1.0 con arquitectura detallada, tablas de clases, interfaces de usuario y matrices de trazabilidad. Se documentaron gaps: 7 de 23 RQF tienen CU directo. ]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
