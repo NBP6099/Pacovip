@@ -10,15 +10,17 @@
 
 Operario: Entidad que representa a la persona que realiza las tareas de logística. Contiene nombre, apellido, passwordHash y su jefe asignado.
 
+Vehículo: Entidad que representa a un vehículo que 1 o 2 operarios pueden usar. Contiene mátricula, modelo y estado del vehículo, que puede ser en uso, en el taller, o libre.
+
 Ruta: Entidad que lista las tareas que un operador debe realizar a lo largo del día. Contiene fecha y un método para optimizar la ruta.
 
-Tarea: Clase base abstracta para todos los trabajos que se pueden hacer. Contiene fechaCreacion, fechaFinalizacion, prioridad y estadoTarea.
+Tarea: Clase base abstracta para todos los trabajos que se pueden hacer. Contiene fechaCreacion, fechaFinalizacion, prioridad, estadoTarea y una descripción.
 
 --Reposicion: Entidad que hereda de Tarea y se enfoca en reponer productos.
 
 --Instalacion: Entidad que hereda de Tarea y se enfoca en instalar nuevos activos.
 
---Incidencia: Entidad que registra un evento que requiere una Tarea. Contiene fechaCreacion, fechaLimite y estadoIncidencia.
+--Incidencia: Entidad que registra un evento que requiere una Tarea. Contiene fechaReporte y descripción.
 
 EvidenciaMultimedia: Entidad que documenta el proceso de una Tarea. Contiene urlFichero, timestamp y tipo ("antes", "después").
 
@@ -30,7 +32,7 @@ Proveedor: Entidad que representa a la persona o empresa que suministra los prod
 
 Pedido: Entidad que hace referencia al conjunto de productos que se solicitan al proveedor para reabastecer el inventario. Contiene fechaPedido, dateTime y estado.
 
-Producto: Entidad que representa el artículo que se vende en las máquinas. Contiene nombre, descripción y precio.
+Producto: Entidad que representa el artículo que se vende en las máquinas. Contiene nombre, descripción y precio de compra y de venta.
 
 StockItem: Entidad que controla el inventario de un Producto en una MaquinaExpendedora. Contiene cantidad, ubicacionEM y un método para calcularUmbral.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
